@@ -1,0 +1,60 @@
+/* Empty. Add your own CSS if you like */
+.bfull{
+    width: 95%;
+    margin:2.5%;    
+}
+.bhalf{
+    width: 45%;
+    margin:0 auto;
+    margin-top: 7.5%;
+    display:block;    
+}
+.title{
+    text-align: center;
+    margin-top:7.5%;
+}
+.subtitle{
+    text-align: center;
+}
+
+.interestRate{
+    width: 30%;
+    margin: 4% 35%;
+}
+.input-icon {
+  position: relative;
+   border:1px solid black;
+   width: 80%;
+   margin: 10%
+}
+
+.input-icon > i {
+  position: absolute;
+  display: block;
+  transform: translate(0, -50%);
+  top: 50%;
+  pointer-events: none;
+  width: 25px;
+  text-align: center;
+	font-style: normal;
+}
+
+.input-icon > input {
+  padding-left: 25px;
+	padding-right: 0;
+}
+
+.input-icon-right > i {
+  right: 0;
+}
+
+.input-icon-right > input {
+  padding-left: 0;
+  padding-right: 25px;
+  text-align: right;
+}
+
+
+.plain{
+  text-decoration: none;
+}
