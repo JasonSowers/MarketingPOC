@@ -58,3 +58,12 @@
 .plain{
   text-decoration: none;
 }
+
+#container{
+  padding-right: 7.5%;
+
+}
+
+.rightAlign{
+  text-align: right;
+}

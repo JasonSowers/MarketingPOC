@@ -40,6 +40,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
+    .state('app.further', {
+    url: '/browse',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/further.html'
+      }
+    }
+  })
 
   .state('app.annualGrowth', {
       url: '/annualGrowth',
